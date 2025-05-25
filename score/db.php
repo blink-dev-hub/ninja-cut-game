@@ -1,13 +1,13 @@
 <?php
-// The name of the adtabase for WordPress
-define("DB_NAME", "headninja");
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'headninja' );
 
-// MySQL database username
-define("DB_USER", "root");
+/** MySQL database username */
+define( 'DB_USER', 'root' );
 
-// MySQL database password
-define("DB_PASSWORD", "");
+/** MySQL database password */
+define( 'DB_PASSWORD', '' );
 
-// MySQL hostname
-define("DB_HOST", "localhost");
+/** MySQL hostname */
+define( 'DB_HOST', 'localhost' );
 ?>
