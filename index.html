@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hinata Head Ninja game">
+    <meta name="author" content="dron">
+    <meta name="viewport"
+        content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <meta property="og:title" content="Hinata Head Ninja game" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="https://game.asunatoken.com" />
+    <meta property="og:image" content="https://game.asunatoken.com/images/og-image.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400&family=PT+Sans+Narrow&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <title>Hinata Token Game</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Hinata Token Game</h1>
+        <h2>Hit the tokens heads and take care of the bombs! Good luck.</h2>
+    </div>
+    <div id="extra"></div>
+    <div id="inputname">
+        <p><input type="text" id="ninjianame" maxlength="10" autofocus placeholder="INSERT USERNAME"></p>
+        <img src="images/leaderboard/submit.png" alt="submit" id="submit">
+    </div>
+    <div id="menu">
+        <img src="images/menu/connectwallet.png" alt="wallet" id="connectwallet"><br>
+        <img src="images/menu/playnow.png" alt="play" id="playnow"><br>
+        <img src="images/menu/leaderboard.png" alt="leaderboard" id="goleader">
+    </div>
+    <div id="leaderboard">
+        <img src="images/leaderboard/lead-title.png" alt="title" class="lead-title">
+        <table id="lead-th">
+            <tr>
+                <td width="100px">POSITION</td>
+                <td width="180px">USERNAME</td>
+                <td width="100px">SCORE</td>
+                <td width="80px">WALLET</td>
+            </tr>
+        </table>
+        <div id="rankBlock">
+            <table id="ranking">
+                <tr class="top3">
+                    <td class="num">1</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+                <tr class="top3">
+                    <td class="num">2</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+                <tr class="top3">
+                    <td class="num">3</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+                <tr class="top3">
+                    <td class="num">4</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+                <tr class="top3">
+                    <td class="num">5</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+                <tr class="top3">
+                    <td class="num">6</td>
+                    <td class="name"></td>
+                    <td class="score"></td>
+                    <td class="wallet"></td>
+                </tr>
+            </table>
+        </div>
+        <img src="images/leaderboard/return.png" alt="return" id="return">
+    </div>
+    <div id="gameover">
+        <p>YOUR SCORE</p>
+        <p id="ninjiascore">0</p>
+        <img src="images/menu/gomenu.png" alt="menu" id="gomenu">
+        <img src="images/menu/leaderboard.png" alt="leaderboard" id="goleader2">
+    </div>
+    <div class="footer">
+        <img src="images/logo-icon-asuna.png" alt="logo" class="logo-footer">
+    </div>
+</body>
+
+</html>
